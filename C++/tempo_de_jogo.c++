@@ -11,7 +11,7 @@ int main()
 
     int duracao{};
     if (hora_inicio == hora_termino)
-        duracao= DIA;
+        duracao = DIA;
     else if (hora_inicio > hora_termino)
         duracao = (DIA - hora_inicio) + hora_termino;
     else
